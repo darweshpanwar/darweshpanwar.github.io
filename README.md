@@ -1,4 +1,4 @@
-# Darwesh Panwar - Data Analyst Portfolio
+# Darwesh Panwar - Data Analyst Portfolio  
 
 Hello! I am Darwesh, a passionate Data Analyst. Welcome to my personal portfolio website.
 
