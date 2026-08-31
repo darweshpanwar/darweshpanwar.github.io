@@ -11,6 +11,20 @@
     box-shadow: none !important;
     outline: none !important;
 }
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 25px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 
         body {
   body {
@@ -114,6 +128,7 @@
             </a>
 
         <h2>💻 Featured Projects</h2>
+                        <div class="projects-grid">
                 <!-- New Resume Section Added At The Top -->
         <div class="project">
             <a href="https://ibb.co/Kxz6sk2C" target="_blank">
@@ -145,6 +160,7 @@
             <h3>🐍 Python Web Scraping & Pandas Project</h3>
             <p>Automated data collection from live websites using Python libraries and cleaned the extracted datasets using Pandas for structured business reporting.</p>
         </div>
+           </div>
 
         <h2>📞 Contact Information</h2>
         <div class="contact-info">
